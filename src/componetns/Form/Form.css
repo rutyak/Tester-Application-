@@ -1,0 +1,51 @@
+.form-container{
+    height: 76%;
+    width: 91%;
+    padding: 1rem;
+    margin-top: 0.6rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    overflow: auto;
+}
+
+.opt1, .opt2{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.que p{
+    margin-bottom: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.input-ans input{
+    width: 100%;
+    height: 2.8rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.noti p{
+    text-align: center;
+}
+
+.submit-form-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-form-btn button{
+    height: 3rem;
+    width: 12rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background: darkkhaki;
+}

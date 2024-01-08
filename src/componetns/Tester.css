@@ -1,0 +1,49 @@
+.tester-container{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    height: 10%;
+    font-size: 2.2rem;
+    padding: 0.7rem;
+}
+
+.survey-block{
+    width: 22%;
+}
+
+.survey-container{
+    width: 86%;
+    height: 90%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: normal;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+    overflow: auto;
+}
+
+.type-tit-desc{
+    height: auto;
+    border: 1px solid gray;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    background-color: #543737;
+}
+
+.type{
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 0.3rem;
+    margin-bottom: 0.8rem;
+    background: #de8343;
+    color: #1d1810;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
