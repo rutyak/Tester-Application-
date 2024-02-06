@@ -1,0 +1,106 @@
+.img-section img{
+    width: 8rem;
+}
+
+
+
+.home img{
+    width: 2rem;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.home p{
+    font-size: large;
+}
+
+.vName{
+    width: 24%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 38%;
+    background: bisque;
+}
+
+.img-section{
+    height: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.image-video-container{
+    width: 100%;
+    height: 100%;
+}
+
+.image-container{
+    width: 100%;
+    height: 100%;
+}
+
+.iName{
+    width: 24%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    margin-top: 7.5rem;
+    margin-bottom: 2rem;
+    margin-left: 38%;
+    background: bisque;
+}
+
+.noti h2{
+    text-align: center;
+    margin-bottom: -6rem;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+}
+
+.img-submit{
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 0.6rem;
+    background: burlywood;
+    color: black;
+}
+
+.img-section img{
+    margin-left: 4rem;
+}
+
+
+.img-flex{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select{
+    border: 6px solid red;
+}
+
+@media screen and (max-width: 780px) {
+    .img-section img {
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .img-section img {
+        width: 4rem;
+        margin-left: 2.5rem;
+    }
+}
